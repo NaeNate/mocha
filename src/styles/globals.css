@@ -1,19 +1,25 @@
+:root {
+  --brown5: #8c5a3e;
+  --brown4: #967259;
+  --brown3: #ab8b74;
+  --brown2: #bd9f86;
+  --brown1: #dbc1ac;
+}
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
 }
 
 body {
   margin: 0;
+  height: 100%;
+  background-color: var(--brown1);
 }
 
 main {
   display: block;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
 }
 
 hr {

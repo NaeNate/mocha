@@ -1,3 +1,25 @@
 .header {
   margin: 0;
+  padding: 10px 0 10px 10px;
+  font-size: 3rem;
+  font-family: Playfair Display, serif;
+  color: var(--brown1);
+  background-color: var(--brown5);
+}
+
+.traits {
+  margin-top: 0;
+  color: var(--brown5);
+}
+
+.trait {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: Playfair Display, serif;
+  font-size: 1.6rem;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
 }
